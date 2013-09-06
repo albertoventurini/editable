@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<title>Notes, thoughts, etc.</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="view/style.css">
+</head>
+
+<body>
+
+<div id="container">
+	
+<div id="header">
+
+<div id="headertitle">
+<h1>Notes, thoughts, etc.</h1>
+</div>
+
+
+<div id="search">
+<form id="search_textbox" method="get" action="controller.php">
+<input type="hidden" name="action" value="search" />
+<input type="text" name="query" size="21" maxlength="120" />
+<button type="submit" value="Search" class="search_button">Search</button>
+</form>
+</div> <!-- search -->
+
+
+<div id="newpage" style="clear: both; float:right;">
+<!-- <button id="buttonNew" type="submit">New page</button> -->
+<a href="controller.php?action=new">New page</a>
+</div>
+
+</div> <!-- header -->
+
+
+<div id="mainwrapper">
