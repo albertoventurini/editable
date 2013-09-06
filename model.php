@@ -1,12 +1,5 @@
 <?php
 
-$db_hostname = "localhost";
-$db_username = "alberto";
-$db_password = "island";
-$db_database = "editable";
-$db_root_username = "root";
-$db_root_password = "orange";
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -428,7 +421,7 @@ function build_pagelist()
 
 
 
-$db = new Database("localhost", "alberto", "island", "editable");
+$db = new Database("localhost", "alberto", "alberto", "editable");
 
 try
 {
